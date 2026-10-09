@@ -1,7 +1,6 @@
 
 "use client";
 
-import Image from "next/image";
 import { createPortal } from "react-dom";
 import { useEffect, useRef, useState } from "react";
 
@@ -55,7 +54,7 @@ export default function ProjectImage({ src, alt }: ProjectImageProps) {
         aria-haspopup="dialog"
         className="group/image relative block w-full cursor-zoom-in overflow-hidden rounded-2xl bg-[#182018] shadow-lg"
       >
-        <Image
+        <img
           src={src}
           alt={alt}
           width={1200}
@@ -95,7 +94,7 @@ export default function ProjectImage({ src, alt }: ProjectImageProps) {
               className="relative flex max-h-[90vh] max-w-6xl items-center justify-center"
               onClick={(event) => event.stopPropagation()}
             >
-              <Image
+              <img
                 src={src}
                 alt={alt}
                 width={1600}
