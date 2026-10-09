@@ -46,7 +46,7 @@ export default function Projects() {
               "MySQL",
             ]}
             githubUrl="https://github.com/Nour-Mistrah/Scrabble-Game"
-            image="/scrabble-preview.png"
+            image="/nour-portfolio/scrabble-preview.png"
           />
         </Reveal>
 
@@ -71,7 +71,7 @@ export default function Projects() {
       "MySQL",
     ]}
     githubUrl="https://github.com/Nour-Mistrah/Vicanza-Trip-Planner"
-    image="/vicanza-preview.png"
+    image="/nour-portfolio/vicanza-preview.png"
   />
 </Reveal>
 </div>
